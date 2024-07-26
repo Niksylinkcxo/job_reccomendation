@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the Excel files
-jobs_file_path = 'C:\\Users\\Nikhil Parsarwar\\Downloads\\jobs\\job data.csv'
+jobs_file_path = './job data.csv'
 user_details_file_path = 'C:\\Users\\Nikhil Parsarwar\\Downloads\\jobs\\User Details.xlsx'
 
 # Load the sheets
