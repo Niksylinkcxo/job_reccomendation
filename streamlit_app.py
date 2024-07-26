@@ -116,7 +116,7 @@ st.header("Enter your profile information")
 
 user_position = st.text_input("Current Position")
 user_work_experience = st.text_input("Work Experience in years")
-user_domain = st.text_input("Domain of Work")
+user_domain = st.text_input("Your Industry")
 
 # Button to trigger recommendations
 if st.button("Get Job Recommendations"):
