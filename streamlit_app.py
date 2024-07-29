@@ -117,11 +117,12 @@ st.header("Enter your profile information")
 user_position = st.text_input("Current Position")
 user_work_experience = st.text_input("Work Experience in years")
 user_domain = st.text_input("Your Industry")
+user_summary = st.text_input("write your Summary")
 
 # Button to trigger recommendations
 if st.button("Get Job Recommendations"):
     # Combine user input into a single string for feature extraction
-    user_info = f"{user_position} {user_work_experience} {user_domain}"
+    user_info = f"{user_position} {user_work_experience} {user_domain} {user_summary}"
     user_info_tfidf = vectorizer.transform([user_info])
 
     # Compute similarity scores for the user input
