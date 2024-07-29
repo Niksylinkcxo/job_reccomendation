@@ -99,7 +99,7 @@ def get_recursive_similar_jobs(job_index, depth=5, top_n=5):
                     'job_index': row['index'],
                     'job_title': row['job_title'],
                     'company_name': row['company_name'],
-                    #'similarity_score': row['similarity_score'],
+                    'similarity_score': row['similarity_score'],
                     'cleaned_description': row['cleaned_description'],
                     'similar_jobs': []
                 }
